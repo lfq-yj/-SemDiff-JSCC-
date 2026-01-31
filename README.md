@@ -29,7 +29,7 @@ We propose **SemDiff-JSCC**, a novel framework that integrates deep joint source
 - **Blind Channel Estimation:** A pilot-free mechanism to estimate SNR and adapt to fading channels without explicit CSI.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/lfq-yj/-SemDiff-JSCC-/main/assets/images/figure2.png" width="800"/>
+  <img src="https://github.com/lfq-yj/-SemDiff-JSCC-/blob/master/figure2.png" width="800"/>
   <br>
   <em>Figure 1: The overall architecture of the proposed SemDiff-JSCC framework.</em>
 </div>
@@ -88,9 +88,9 @@ python inference_one.py --config configs/inference.yaml --snr 10 --channel awgn
 ### Visual Comparison
 
 <div align="center">
-  <img src="assets/images/figure8.png" width="800"/>
+  <img src="https://github.com/lfq-yj/-SemDiff-JSCC-/blob/master/figure8.png" width="800"/>
   <br>
-  <em>Figure 2: Visual comparison at SNR = 0dB (AWGN).</em>
+  <em>Figure 2: Visual comparison at SNR = -5/5dB (AWGN).</em>
 </div>
 
 ---
