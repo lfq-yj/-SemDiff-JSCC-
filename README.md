@@ -27,10 +27,9 @@ We propose **SemDiff-JSCC**, a novel framework that integrates deep joint source
 - **Multimodal Guidance:** Leverages text prompts and edge maps to guide the diffusion decoder.
 - **OmniControl Mechanism:** Parameter-efficient adaptation using LoRA-like strategies.
 - **Blind Channel Estimation:** A pilot-free mechanism to estimate SNR and adapt to fading channels without explicit CSI.
-- **Superior Performance:** Achieves SOTA perceptual quality (FID/LPIPS) compared to traditional JPEG+LDPC and existing Deep JSCC methods.
 
 <div align="center">
-  <img src="figures/framework.png" width="800"/>
+  <img src="https://raw.githubusercontent.com/lfq-yj/-SemDiff-JSCC-/main/assets/images/figure2.png" width="800"/>
   <br>
   <em>Figure 1: The overall architecture of the proposed SemDiff-JSCC framework.</em>
 </div>
@@ -89,7 +88,7 @@ python inference_one.py --config configs/inference.yaml --snr 10 --channel awgn
 ### Visual Comparison
 
 <div align="center">
-  <img src="figures/results_vis.png" width="800"/>
+  <img src="assets/images/figure8.png" width="800"/>
   <br>
   <em>Figure 2: Visual comparison at SNR = 0dB (AWGN).</em>
 </div>
